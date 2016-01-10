@@ -97,7 +97,7 @@ $on-laptop:        800px;
 .home {
 	background: url('../assets/img/main-bg.jpg');
 	background-size: cover;
-	background-position: 0 0;
+	background-position: center;
 	overflow-x: hidden;
 	height: 100vh;
 }
@@ -116,7 +116,7 @@ $on-laptop:        800px;
 }
 
 .cta-btns {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 h1{
@@ -132,35 +132,16 @@ h1{
 
 .event-date {
 	font-family: "FuturaBT Bold", sans-serif;
-	line-height: .5;
-	font-size: 3.5rem;
-	letter-spacing: -5px;
+	line-height: 1.2;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
 	font-weight: bold;
 	text-align: center;
 	color: $brand-color-3;
 	position: relative;
 	width: 100%;
-	.month {
-		line-height: 1;
-		font-size: 1.5rem;
-		position: relative;
-		bottom: 0;
-		left: -38px;
-		letter-spacing: 1px;
-		color: $brand-color;
-	}
-	.de {
-		font-size: 1.3rem;
-		letter-spacing: 1px;
-		position: relative;
-		top: -25px;
-		color: $brand-color;
-	}
-}
-
-h3.time {
-	font-family: "FuturaBT Bold", sans-serif;
-	text-align: left;
+	padding: 0 10px;
+	text-transform: uppercase;
 }
 
 a.btn {
@@ -192,6 +173,16 @@ a.btn {
 		}
 }
 
+
+@media (min-width: 500px) {
+	h1 {
+		img {
+			width: 55%;
+			margin-top: 10%;
+		}
+	}
+}
+
 @media (min-width: 700px) {
 	.center-in-page {
 	width: 100%;
@@ -202,5 +193,36 @@ a.btn {
 }
 	.cta-btns  {
 		display: flex;
+	}
+}
+
+
+@media (min-width: 820px) {
+	h1 {
+		img {
+			width: 45%;
+		}
+	}
+	.event-date {
+		font-size: 1.8rem;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	h1 {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		img {
+			width: 35%;
+			margin-top: 0;
+		}
+	}
+	.event-date {
+		font-size: 1.8rem;
+	}
+	.cta-btns {
+		margin-top: 5%;
 	}
 }
