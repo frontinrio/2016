@@ -1,6 +1,3 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
 
 html {
@@ -99,8 +96,7 @@ $on-laptop:        800px;
 	background-size: cover;
 	background-position: center;
 	overflow-x: hidden;
-	padding-bottom: 3em;
-	padding-top: 3em;
+	height: 100vh;
 }
 
 
@@ -174,45 +170,6 @@ a.btn {
 		}
 }
 
-.schedule {
-	padding: 2em;
-	h2 {
-		font-family: "parabolaregular", sans-serif;
-		font-size: 3em;
-		color: $brand-color-3;
-	}
-	ul {
-		margin: 0;
-	}
-	li {
-		list-style: none;
-		h3 {
-			font-family: "FuturaBT Bold", sans-serif;
-			text-transform: uppercase;
-		}
-		.talker-name {
-			margin-top: 10px;
-		}
-		.talk-hour {
-			font-family: "parabolaregular", sans-serif;
-			font-size: 2em;
-		}
-		
-	}
-}
-
-.location {
-	padding: 2em;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	h2 {
-		font-family: "parabolaregular", sans-serif;
-		font-size: 3em;
-		color: $brand-color-3;
-	}
-}
 
 @media (min-width: 500px) {
 	h1 {
@@ -220,32 +177,6 @@ a.btn {
 			width: 55%;
 			margin-top: 10%;
 		}
-	}
-	.schedule {
-		h2 {
-			text-align: center;
-		}
-		ul {
-		flex-direction: row;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		align-content: flex-start;
-		text-align: center;
-		li {
-			margin: 1em 3em;
-			flex: 1;
-			max-width: 280px;
-			min-width: 280px;
-			.talk-description {
-				text-align: left;
-			}
-			h3 {
-				margin-bottom: 5px;
-			}
-		}
-	}
 	}
 }
 
