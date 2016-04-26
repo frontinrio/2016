@@ -146,6 +146,7 @@ h1{
 }
 .event-date {
 	color: $brand-color;
+	font-family: "parabolaregular", sans-serif;
 }
 
 a.btn {
@@ -179,6 +180,9 @@ a.btn {
 
 .schedule {
 	padding: 2em;
+	figure {
+		position: relative;
+	}
 	h2 {
 		font-family: "parabolaregular", sans-serif;
 		font-size: 3em;
@@ -195,6 +199,9 @@ a.btn {
 		}
 		.talker-name {
 			margin-top: 10px;
+			font-family: "parabolaregular", sans-serif;
+			font-size: 2em;
+			color: $brand-color-3;	
 		}
 		.talk-hour {
 			font-family: "parabolaregular", sans-serif;
@@ -233,7 +240,7 @@ a.btn {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		align-content: flex-start;
 		text-align: center;
 		li {
@@ -254,12 +261,12 @@ a.btn {
 
 @media (min-width: 700px) {
 	.center-in-page {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-}
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
 	.cta-btns  {
 		display: flex;
 	}
@@ -289,7 +296,7 @@ a.btn {
 		}
 	}
 	.event-date {
-		font-size: 1.8rem;
+		font-size: 3rem;
 	}
 	.cta-btns {
 		margin-top: 5%;
