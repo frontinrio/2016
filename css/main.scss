@@ -131,7 +131,7 @@ h1{
 }
 
 
-.event-date {
+.event-date, .event-location {
 	font-family: "FuturaBT Bold", sans-serif;
 	line-height: 1.2;
 	font-size: 1.3rem;
@@ -143,6 +143,9 @@ h1{
 	width: 100%;
 	padding: 0 10px;
 	text-transform: uppercase;
+}
+.event-date {
+	color: $brand-color;
 }
 
 a.btn {
@@ -196,13 +199,13 @@ a.btn {
 		.talk-hour {
 			font-family: "parabolaregular", sans-serif;
 			font-size: 2em;
+			color: $brand-color-2;
 		}
 		
 	}
 }
 
 .location {
-	padding: 2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
