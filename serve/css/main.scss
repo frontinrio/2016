@@ -1,6 +1,3 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
 
 html {
@@ -99,8 +96,7 @@ $on-laptop:        800px;
 	background-size: cover;
 	background-position: center;
 	overflow-x: hidden;
-	padding-bottom: 3em;
-	padding-top: 3em;
+	height: 100vh;
 }
 
 
@@ -131,7 +127,7 @@ h1{
 }
 
 
-.event-date, .event-location {
+.event-date {
 	font-family: "FuturaBT Bold", sans-serif;
 	line-height: 1.2;
 	font-size: 1.3rem;
@@ -143,10 +139,6 @@ h1{
 	width: 100%;
 	padding: 0 10px;
 	text-transform: uppercase;
-}
-.event-date {
-	color: $brand-color;
-	font-family: "parabolaregular", sans-serif;
 }
 
 a.btn {
@@ -178,51 +170,6 @@ a.btn {
 		}
 }
 
-.schedule {
-	padding: 2em;
-	figure {
-		position: relative;
-	}
-	h2 {
-		font-family: "parabolaregular", sans-serif;
-		font-size: 3em;
-		color: $brand-color-3;
-	}
-	ul {
-		margin: 0;
-	}
-	li {
-		list-style: none;
-		h3 {
-			font-family: "FuturaBT Bold", sans-serif;
-			text-transform: uppercase;
-		}
-		.talker-name {
-			margin-top: 10px;
-			font-family: "parabolaregular", sans-serif;
-			font-size: 2em;
-			color: $brand-color-3;	
-		}
-		.talk-hour {
-			font-family: "parabolaregular", sans-serif;
-			font-size: 2em;
-			color: $brand-color-2;
-		}
-		
-	}
-}
-
-.location {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	h2 {
-		font-family: "parabolaregular", sans-serif;
-		font-size: 3em;
-		color: $brand-color-3;
-	}
-}
 
 @media (min-width: 500px) {
 	h1 {
@@ -231,42 +178,16 @@ a.btn {
 			margin-top: 10%;
 		}
 	}
-	.schedule {
-		h2 {
-			text-align: center;
-		}
-		ul {
-		flex-direction: row;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-start;
-		align-content: flex-start;
-		text-align: center;
-		li {
-			margin: 1em 3em;
-			flex: 1;
-			max-width: 280px;
-			min-width: 280px;
-			.talk-description {
-				text-align: left;
-			}
-			h3 {
-				margin-bottom: 5px;
-			}
-		}
-	}
-	}
 }
 
 @media (min-width: 700px) {
 	.center-in-page {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100%;
-	}
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
 	.cta-btns  {
 		display: flex;
 	}
@@ -296,7 +217,7 @@ a.btn {
 		}
 	}
 	.event-date {
-		font-size: 3rem;
+		font-size: 1.8rem;
 	}
 	.cta-btns {
 		margin-top: 5%;
