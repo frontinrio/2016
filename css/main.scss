@@ -103,7 +103,17 @@ $on-laptop:        800px;
 	padding-top: 3em;
 }
 
+.page {
+	background: url('../assets/img/main-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+	padding: 3em 1em;
 
+	.wrapper {
+		max-width: 960px;
+	}
+}
 
 .flex {
 	display: flex;
@@ -208,7 +218,6 @@ a.btn {
 			font-size: 2em;
 			color: $brand-color-2;
 		}
-		
 	}
 }
 
