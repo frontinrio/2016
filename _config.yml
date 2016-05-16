@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Front in Rio 2016 | HTML Edition
+title: Front in Rio 2016 | JS Edition
 email: contato@frontinrio.com.br
 description: > # this means to ignore newlines until "baseurl:"
   Site do evento Front in Rio 2016.

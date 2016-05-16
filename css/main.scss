@@ -95,12 +95,13 @@ $on-laptop:        800px;
 }
 
 .home {
-	background: url('../assets/img/main-bg.jpg');
+	background: url('../assets/img/main-bg-js.png');
 	background-size: cover;
 	background-position: center;
 	overflow-x: hidden;
 	padding-bottom: 3em;
 	padding-top: 3em;
+	height: 100vh;
 }
 
 .page {
