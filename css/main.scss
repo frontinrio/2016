@@ -274,6 +274,20 @@ a.btn {
 	}
 }
 
+
+#cdigo-de-conduta-do-front-in-rio {
+	font-family: "FuturaBT Bold", sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: $brand-color-2;
+}
+
+#precisa-de-ajuda, #verso-rpida, #verso-mais-longa {
+	font-family: "FuturaBT Bold", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	color: $brand-color-3;
+}
 @media (min-width: 500px) {
 	h1 {
 		img {
