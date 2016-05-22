@@ -3,7 +3,7 @@ title: Código de Conduta
 layout: page
 ---
 
-## Código de Conduta do FrontInRio
+## Código de Conduta do Front in Rio
 
 Todos os participantes, palestrantes, patrocinadores e voluntários do FrontInRio precisam concordar com este código de conduta. Os organizadores vão reforçar que este código seja seguido durante todo o evento. Esperamos a cooperação de todos os participantes para ajudar a garantir um ambiente seguro para todos.
 
