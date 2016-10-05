@@ -133,10 +133,10 @@ $on-laptop:        800px;
 
 h1{
 	width: 100%;
-	display: flex;
-	justify-content: center;
 	img {
 		width: 85%;
+		display: block;
+		margin: 0 auto;
 		margin-top: 15%;
 	}
 }
@@ -195,21 +195,32 @@ p {
 	padding: 0 10px;
 	text-transform: uppercase;
 }
+.event-location {
+	margin: 0;
+}
 .event-date {
 	color: $brand-color;
 	font-family: "parabolaregular", sans-serif;
+	font-size: 1.5em;
 }
 
+address {
+	text-align: center;
+}
 a.btn {
 	font-family: "FuturaBT Bold", sans-serif;
 	text-transform: uppercase;
-	font-size: 1.2em;
-	padding: 1.5rem;
+	padding: 1em;
 	margin: 1em;
 	color: white;
 	background: $brand-color-2;
 	border:  4px solid $brand-color-2;
 	transition: all .6s ease;
+	text-align: center;
+	@media screen and (min-width: 768px) {
+		font-size: 1.2em;
+		padding: 1.5rem;
+	}
 	&.btn-outline {
 		color:  $brand-color-4;
 		background: transparent;
